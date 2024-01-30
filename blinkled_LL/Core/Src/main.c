@@ -101,9 +101,9 @@ int main(void)
   while (1)
   {
 	    LL_GPIO_SetOutputPin(LED_RED_GPIO_Port,LED_RED_Pin);
-	    LL_mDelay(1000);
+	    LL_mDelay(320000);
 	    LL_GPIO_ResetOutputPin(LED_RED_GPIO_Port,LED_RED_Pin);
-	    LL_mDelay(1000);
+	    LL_mDelay(320000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
